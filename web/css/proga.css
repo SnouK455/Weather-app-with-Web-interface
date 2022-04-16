@@ -1,0 +1,97 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	line-height: 2; 
+}
+
+body {
+    background-image:url('https://cutewallpaper.org/24/rain-gif-png/aesthetic-rain-gif-aesthetic-rain-discover-amp-share-gifs.gif');
+    background-size: cover;
+    
+    
+    width: auto;
+    height: auto;
+    padding:0;
+    margin:0;
+}
+
+
+#location {
+	display: block;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 10px;
+	padding: 0px 10px;
+	color: white;
+	outline: none;
+	width: 100%;
+	max-width: 100%;
+	font-size: 30px;
+}
+
+#location::placeholder {
+	;
+}
+
+#show {
+	display: block;
+	
+	margin-top: 25px;
+	
+	
+
+
+	
+	border-radius: 10px;
+	padding: 10px;
+	
+	outline: none;
+	width: 35%;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	margin:  20px auto;
+	position: relative;
+    margin-right: 20px;
+
+    border: 1px solid lightgreen;
+    background: none;
+    color: #286aab;
+    overflow: visible;
+    
+
+}
+#show::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -35px 0 0 -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    content: '';
+    opacity: 0;
+}
+
+#show:hover {
+	opacity: .9;
+}
+
+#info {
+	display: ;
+	box-sizing: border-box;
+	border: none;
+	margin-top: 75px;
+	
+	border-radius: 10px;
+	padding: 0px 10px;
+	color: black;
+	outline: none;
+	width: auto;
+	max-width: 100%;
+	font-size: 15px;
+	text-transform: ;
+	font-weight: bold;
+	cursor: pointer;
+
+}
